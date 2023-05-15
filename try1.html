@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="try3.css">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="captcha.css">
+	<link rel="stylesheet" href=
+"https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity=
+"sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+		crossorigin="anonymous">
+	<script src="captcha.js"></script>
+</head>
+
+<body onload="generate()">
+	<section id="contact">
+		<div class="content">
+			<div id="form">
+				<form action="" id="contactForm" method="post">
+					<span>Name</span>
+					<input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+					<span>Email</span>
+					<input type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+					<span>Contact</span>
+					<input type="text" name="contact" class="contact" placeholder="Enter your contact number" tabindex=3 />
+					<span id="captcha"></span>
+					</form>
+				</div>
+			</div>
+		</section>
+		<br>
+		<br>
+
+	<div id="user-input" class="inline">
+		<input type="text" id="submit"
+			placeholder="Captcha code" /><br><br>
+	</div>
+
+	<div class="inline" onclick="generate()">
+		<i class="fas fa-sync"></i>
+	</div>
+<br>
+<br>
+	<div id="image" class="inline" selectable="False">
+	</div>
+	<input type="submit" id="btn" onclick="printmsg()" />
+<br>
+<br>
+	<p id="key"></p>
+
+	<script src="try2.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  body {
+	/*background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg);*/
+	background-color: rgb(255, 255, 255);
+	color: #B1B1B1;
+	margin: 15px auto 0;
+	width: 410px;
+  }
+  #contact {
+	overflow: auto;
+  }
+  #contact #form {
+	width:410px;
+	float:left;
+  }
+  #contact #form h2 {
+	font: 48px 'Bree Serif', Georgia, serif;
+  }
+  #contact #form span {
+	display:block;
+	float:left;
+	width:100px;
+	padding-top:10px;
+	font: 14px/16px'Bree Serif', Georgia, serif;
+  }
+  #contact #form input {
+	float:left;
+	width:255px;
+	border:0px;
+	color:#070606;
+	padding:10px 10px 10px 30px;
+	font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
+	margin-bottom:10px;
+  }
+  #contact #form textarea {
+	float:left;
+	border:0px;
+	width:255px;
+	height:140px;
+	padding:10px 10px 10px 30px;
+	font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#F1F1F1;
+	resize: none;
+  }
+  #contact #form input.name {
+   /* background:#222222 url(http://img7.uploadhouse.com/fileuploads/17737/177370145f09fe433945815665aa214f80dbc6af.png) no-repeat 10px 8px;*/
+   background-color: rgb(52, 224, 236);
+  }
+  #contact #form input.email {
+	/*background:#222222 url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png) no-repeat 10px 9px;*/
+	background-color: rgb(52, 224, 236);
+  }
+  #contact #form input.contact {
+	/*background:#222222 url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png) no-repeat 10px 9px;*/
+	background-color: rgb(52, 224, 236);
+  }
+#image{
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px 5px gray;
+	width: 60px;;
+	padding: 20px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	height: 40px;
+	user-select: none;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: rgb(52, 151, 168) 2px solid;
+	margin-left: 10px;
+	
+}
+#user-input{
+	box-shadow: 5px 5px 5px 5px gray;
+	width:auto;
+	margin-right: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
+	height: 40px;
+	border: rgb(52, 158, 140) 0px solid;
+}
+input{
+	border:1px rgba(83, 77, 77, 0.836) solid;
+}
+.inline{
+	display:inline-block;
+}
+#btn{
+	box-shadow: 5px 5px 5px grey;
+	color: aqua;
+	margin: 10px;
+	background-color: rgb(36, 149, 214);
+}
